@@ -27,4 +27,4 @@ This combined means that it's not currently possible to scan NPM workspace proje
 I did not find any bulletproof workaround. However, if devDep scanning is not required, you can get a 'full scan' if you had all the subpackages as dependency of the root package.
 However, the dev dependencies of the subpackages won't be scanned, because the subpackages are then considered 'external dependency' and only their 'dependencies' and 'peers' are considered.
 
-[^1:] https://support.snyk.io/hc/en-us/articles/360000910577-Does-the-Snyk-CLI-support-monorepos-or-multiple-manifest-files-
+[^1]: https://support.snyk.io/hc/en-us/articles/360000910577-Does-the-Snyk-CLI-support-monorepos-or-multiple-manifest-files-
