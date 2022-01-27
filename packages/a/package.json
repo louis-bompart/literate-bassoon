@@ -1,0 +1,10 @@
+{
+  "name": "@core/a",
+  "version": "0.0.0",
+  "dependencies": {
+    "beurre": "0.0.1"
+  },
+  "devDependencies": {
+    "chalk": "5.0.0"
+  }
+}
